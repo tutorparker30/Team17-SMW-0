@@ -2,19 +2,14 @@
 
 AMyActor::AMyActor()
 {
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 }
 
 void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
-}
 
-void AMyActor::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
+	UE_LOG(LogTemp, Log, TEXT("Written by Hailey."));
 }
 

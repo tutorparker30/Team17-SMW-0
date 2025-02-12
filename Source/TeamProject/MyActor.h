@@ -12,10 +12,6 @@ class TEAMPROJECT_API AMyActor : public AActor
 public:	
 	AMyActor();
 
-protected:
 	virtual void BeginPlay() override;
-
-public:	
-	virtual void Tick(float DeltaTime) override;
 
 };
