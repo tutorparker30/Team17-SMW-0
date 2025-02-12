@@ -10,6 +10,6 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Log, TEXT("Hailey do commit."));
+	UE_LOG(LogTemp, Log, TEXT("Me do something."));
 }
 
